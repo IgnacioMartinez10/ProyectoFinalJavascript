@@ -63,16 +63,17 @@ function mostrarListaDeTareas(listaDeTareas) {
 	});
 }
 
+
 function deleteTask(tarea) {
     let listaDeTareas = JSON.parse(localStorage.getItem("listaDeTareas"));
-    listaDeTareas.forEach((element, i) => {
-        if (element.nombre == tarea) {
-            listaDeTareas.splice(i, 1);
-        }
-    });
+    const index = listaDeTareas.findIndex(element => element === tarea);
+    listaDeTareas.splice(index, 1);
     localStorage.setItem("listaDeTareas", JSON.stringify(listaDeTareas));
-	mostrarListaDeTareas(listaDeTareas);
+    mostrarListaDeTareas(listaDeTareas);
+
 }
+
+
 
 function armarTarjeta(elemento) {
     const tarjeta = document.createElement("div");
@@ -90,9 +91,9 @@ function armarTarjeta(elemento) {
 	deleteBtn.id = elemento.nombre;
     deleteBtn.textContent = "X";
     deleteBtn.className = "borrarTarea";
-	deleteBtn.addEventListener("click", function (e) {
-        deleteTask(e.target.id);
-    });
+	deleteBtn.addEventListener("click", function(elemento) {
+		deleteTask(elemento);
+	});
 	tarjeta.appendChild(deleteBtn);
 	
 
