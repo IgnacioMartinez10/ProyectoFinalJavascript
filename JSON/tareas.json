@@ -1,0 +1,62 @@
+[
+    {
+        "userId": 1,
+        "id": "Beber agua",
+        "title": "De 1 a 2 litros por día"
+        
+    },
+    {
+        "userId": 1,
+        "id": "Hacer ejercicio",
+        "title": "40 minutos, 4 veces por semana"
+        
+    },
+    {
+        "userId": 1,
+        "id": "Leer un libro",
+        "title": "De 20 a 30 minutos por día"
+        
+    },
+    {
+        "userId": 1,
+        "id": "Estudiar",
+        "title": "De 40min a 1hs por día "
+        
+    },
+    {
+        "userId": 1,
+        "id": "Meditar",
+        "title": "De 15 a 20 minutos por día"
+        
+    },
+    {
+        "userId": 1,
+        "id": "Limpiar",
+        "title": "Dejar limpia la cocina todos los días"
+    
+    },
+    {
+        "userId": 1,
+        "id": "Hacer la cama",
+        "title": "Dejar la cama hecha apenas me levanto"
+        
+    },
+    {
+        "userId": 1,
+        "id": "Salir a dar un paseo",
+        "title": "Despejar la mente"
+        
+    },
+    {
+        "userId": 1,
+        "id": "Compras para la casa",
+        "title": "Compra semanal de alimentos, art. de limpieza, etc"
+        
+    },
+    {
+        "userId": 1,
+        "id": "Ser sociable",
+        "title": "Tratar de sociabilizar mas con las personas ya sea personalmente como a través de las redes sociales"
+    
+    }
+]
